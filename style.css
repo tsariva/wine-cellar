@@ -1,0 +1,430 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.background {
+    background-image: url(images/bgc.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.wrapper {
+    width: 100%;
+    height: 632px;
+  }
+.information {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 260px 0 260px ;
+}
+.space-between {
+    flex-grow: 1;
+}
+.menu {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 260px 0 260px ;
+}
+
+.border {
+    flex-grow: 1;
+    border-top: 1px solid #FFFFFF;
+    border-bottom:1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    padding: 7px 0;
+    text-align: center;  
+}
+.menu > .border:first-child {
+    border-left: 0;
+}
+.border:hover {
+    background-color: #787878;
+    cursor: pointer;
+}
+.key {
+    display: flex;
+    margin: 405px 460px 90px 460px; 
+    
+}
+.button1 {
+    background: #99862A;
+    border: 0;
+    width: 180px;
+    height: 50px;
+    margin: 0 15px ;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;  
+}
+button:hover {
+    background-color: #787878;
+    cursor: pointer;
+}
+.darkbackground {
+    background-color: #282828;
+    height: 540px;  
+    padding: 100px 200px 50px 200px ;
+}
+.title {
+    border: 3px solid #C4C4C4; 
+    padding-top: 30px;
+}
+h2 {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;  
+}
+.line {
+    border-bottom: 1px solid #FFFFFF;
+    width: 160px;
+    margin: auto;
+    padding: 10px;
+}
+.text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 700px;
+    padding: 20px 120px ;
+}
+.image {
+    width: 160px;
+    height: 160px;
+    padding: 30px 100px 30px 400px;
+}
+.lightbackground {
+    background-color: #E6E3C4;
+    height: 1000px;
+    display: flex;
+}
+.branch1 {
+    border-bottom: 1px solid #998431;
+    width: 955px;
+    padding-top: 50px;
+    margin-left:200px ;
+}
+.collection {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 50px 200px 30px 200px ;
+}
+.header {
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 54px;
+    color: #282828;
+    text-align: left;
+    padding-left: 200px;
+}
+.branch2 {
+    border-bottom: 1px solid #282828;
+    width: 160px;
+    padding-top: 30px;
+    margin-left: 200px;
+}
+.word {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #282828;
+    width: 445px;
+    text-align: left;
+    padding: 30px 0 30px 200px;
+}
+.map {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;  
+}
+.margin {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #282828;
+    border-right: 1px solid #282828;
+    border-bottom:1px solid #282828;
+    padding: 22px 24px;  
+}
+.column {
+    flex-direction: column;
+    padding:  13px 15px 13px 30px;
+    border-bottom:1px solid #282828;  
+}
+.margin1 {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #282828;
+    width: 300px;
+    padding-bottom: 2px;
+}
+.margin2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #282828; 
+}
+ .last> .margin  {
+    border-bottom: 0;
+}
+.last> .column {
+    border-bottom: 0;
+}
+.button2 {
+    background: #998431;
+    border: 0;
+    width: 254px;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-left: 200px ;
+}
+.button2:hover {
+    background-color: #787878;
+    cursor: pointer;
+}
+.branch3 {
+    border-bottom: 1px solid #998431;
+    width: 955px;
+    padding-top: 60px;
+    margin-left: 200px ;
+}
+.block {
+    width: 600px;
+}
+.foto {
+    padding: 100px 50px;
+}
+.image2 {
+    width: 500px;
+    height: 500px;  
+}
+.image3 {
+    width: 225px;
+    height: 228px;
+    padding: 30px 15px 15px 0px;
+}
+.image4 {
+    width: 225px;
+    height: 228px;
+    padding: 30px 0px 15px 30px;
+}
+.scope {
+    border: 3px solid #C4C4C4;
+    height: 550px;
+    position: relative;
+}
+.image5 {
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    left: -80px;
+    top: -80px;
+}
+.image6 {
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    right: -60px;
+    top: -80px;
+}
+.up {
+    position: absolute;
+    top: -30px;
+    left: 250px;
+    background-color: #282828;
+    padding: 0 20px;
+}
+.branch4 {
+    border-bottom: 1px solid #FFFFFF;
+    width: 118px;
+    margin-top: 55px;
+    margin-left: 400px ;
+}
+.center {
+    margin: 40px auto;
+    height: 400px;
+    width: 550px;
+}
+.note {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 539px;
+    
+}
+.info {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+}
+.name {
+    flex-grow: 1;
+    width: 250px;
+    height: 30px;
+    background-color: #282828 ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+.phone {
+    flex-grow: 1;
+    width: 250px;
+    height: 30px;
+    background-color: #282828 ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+.address {
+    margin-top: 40px;
+    width: 100%;
+    height: 30px;
+    background-color: #282828 ;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #FFFFFF ;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.button3 {
+    background-color: #282828;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.button3:hover {
+    background-color: #998431;
+    cursor: pointer;
+}
+input {
+    outline: none;
+    border: none;
+}
+.assentbackground {
+    background-color: #998431;
+    height: 120px;
+    padding: 50px 200px 60px 200px;
+}
+.branch8 {
+    border-bottom: 1px solid #FFFFFF;
+    width: 955px;
+    top: 50px;
+}
+.carte {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row;
+    padding: 20px 40px;
+}
+.string {
+    flex-grow: 1;
+}
+.string:hover {
+    color: #282828;
+    cursor: pointer;
+}
+.footer {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    display: flex;
+    flex-direction: row;
+}
+.cord {
+    flex-grow: 1;
+    border-top: 1px solid #FFFFFF;
+    border-bottom:1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    padding: 20px 0;
+    text-align: center;  
+}
+.footer > .cord:first-child {
+    border-left: 0;
+}
+svg {
+    padding: 0px 20px;
+    fill: #FFFFFF;
+}
+svg:hover {
+    fill: #282828;
+    cursor: pointer;
+}
